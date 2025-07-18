@@ -1,0 +1,118 @@
+  body {
+      background-color: #f5f7fa;
+      color: #2d3436;
+    }
+
+    .container {
+      background-color: #ffffff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .box p {
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+     .btn-signin {
+      background: linear-gradient(45deg, #0984e3, #74b9ff);
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      transition: background 0.3s ease;
+    }
+
+    .btn-signin:hover {
+      background: linear-gradient(45deg, #74b9ff, #0984e3);
+    }
+
+    .btn.liquid {
+      background: linear-gradient(45deg, #00b894, #00cec9);
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      transition: background 0.3s ease;
+    }
+
+    .btn.liquid:hover {
+      background: linear-gradient(45deg, #00cec9, #00b894);
+    }
+
+    .bg-success {
+      background-color: #d1f5ec !important; /* light teal background */
+    }
+
+    .bg-primary {
+      background-color: #dbeeff !important; /* light blue background */
+    }
+
+    h2 {
+      color: #6c5ce7;
+    }
+.box
+{
+    border: 1px solid  rgba(148,163,184,0.1);
+     transition: transform 0.5s linear;
+}
+.box:hover{
+    transform:scale(1.01);
+    box-shadow: 5px 5px 5px black;
+}
+.container
+{
+    background-color: #f5f7fa;
+    color: #2d3436;
+}
+.wave-text span {
+    display: inline-block;
+    font-size: 4rem;
+    animation: wave 2s ease-in-out infinite;
+}
+
+.wave-text span:nth-child(1) {
+    animation-delay: 0s;
+}
+.wave-text span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.wave-text span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+.wave-text span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+
+/* SIGN--UP--PAGE */
+
+
+.signup-container {
+      background-color: #ffffff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      padding: 2rem;
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .btn-signup {
+      background: linear-gradient(45deg, #0984e3, #74b9ff);
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      transition: background 0.3s ease;
+    }
+
+    .btn-signup:hover {
+      background: linear-gradient(45deg, #74b9ff, #0984e3);
+    }
